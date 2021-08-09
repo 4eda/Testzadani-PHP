@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Блоки */
+    header {
+    width:850px;
+    height:0px;
+    margin:5px auto;
+    border-radius:6px;
+    background:white url('i/bg.jpg') no-repeat top left; /* можете скачать картинку в интернете */
+    }
+    
+    article {
+    width:850px;
+    height:auto;
+    margin:auto;
+    }
+    .polos{
+        border-bottom:1px dashed #c50737;
+    }
+    .polos1{
+        border-bottom:1px dashed #c50737;
+        margin-top:20px;
+    }
+    article section h3 {
+        color:#b90a0a;
+        font-size:13pt;
+    }
+    article section h2 {
+    color:#000000;
+    font-size:17pt;
+    }
+    
+    article section a {
+        color: blue; 
+           
+    }
+
+    article section a:visited {
+        color: #808080
+    }
+    article section a:active{
+        color: black;
+
+    }
+    article section p {
+    font-size:10pt;
+    }
+    
+    article section p.date {
+    font-size:9pt;
+    color:#516168;
+    text-align:left;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    }
+    nav {
+        width:850px;
+        height:auto;
+        margin:10px auto;
+        text-align:center;
+        }
+        nav button{
+            position: relative;     
+            right: 17px;
+            width: 50px;
+            height: 20px;
+          }
+        nav a {
+        padding:2px;
+        text-decoration:none;
+        color:black;
+        font-size:10pt;
+        margin:2px;
+       
+        }
+
+        .pos{
+            margin-top: 25px;
+        }
+        .ram{
+            border: 1px dotted grey;
+            padding: 15px;
+        }
